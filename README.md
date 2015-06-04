@@ -10,7 +10,6 @@ A ready-to-go environment for fiddling with ES6 React
 - Support for ES6-flavored React
 - JSX support
 - webpack-dev-server for incremental rebuilds upon save
-- Webpack hot module replacement -- no need to reload the page to see your changes
 - Includes Bootstrap 3.3.4
 
 ### Instructions
