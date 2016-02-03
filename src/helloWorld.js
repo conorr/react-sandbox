@@ -1,9 +1,5 @@
-let React = require('react');
+import React from 'react';
 
-class HelloWorld extends React.Component {
-    render() {
-        return <h1>Hello world!</h1>;
-    }
-}
+let HelloWorld = () => <h1>Hello world!</h1>;
 
-module.exports = HelloWorld;
+export default HelloWorld;

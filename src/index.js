@@ -1,4 +1,5 @@
-let React = require('react');
-let HelloWorld = require('./helloWorld');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import HelloWorld from './helloWorld';
 
-React.render(<HelloWorld />, document.getElementById('container'));
+ReactDOM.render(<HelloWorld />, document.getElementById('container'));
