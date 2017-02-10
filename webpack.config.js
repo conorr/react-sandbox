@@ -4,7 +4,7 @@ module.exports = {
 
     output: {
         filename: 'bundle.js',
-        path: './dist/',
+        path: '/dist/',
         publicPath: '/dist/'
     },
 
@@ -16,7 +16,10 @@ module.exports = {
                 exclude: [
                     /node_modules/,
                     /dist/
-                ]
+                ],
+                query: {
+                  presets: ['es2015', 'react']
+                }
             }
         ]
     }

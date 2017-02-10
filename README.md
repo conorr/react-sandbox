@@ -6,7 +6,6 @@ A turnkey environment for fiddling with ES2015 React
 
 ### Includes
 
-- :new: Support for [stateless functional components](https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html#stateless-functional-components) via React v0.14
 - ES2015 and JSX support via Babel
 - Support for [ES2015 classes](http://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html#es6-classes) for React components
 - Incremental rebuilds on save using webpack-dev-server
